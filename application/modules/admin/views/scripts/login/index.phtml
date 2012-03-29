@@ -1,0 +1,18 @@
+<!-- View script for controller: Login and script/action name: index -->
+<?php $actionPage = $this->url($this->actionPage); ?>
+<?php echo $this->form('login', array('action' => $actionPage, 'method' => 'POST')); ?>
+
+<?php echo $this->formHidden('login[returnPage]', $this->returnPage); ?>
+
+<?php echo $this->formLabel('login[username]', 'Username (your email):'); ?>
+
+<?php echo $this->formText('login[username]', $this->email); ?>
+<br />
+<?php echo $this->formLabel('login[password]', 'Password:'); ?>
+
+<?php echo $this->formPassword('login[password]'); ?>
+
+<br />
+<?php echo $this->formSubmit('login[submit]', 'Log In'); ?>
+
+</form>

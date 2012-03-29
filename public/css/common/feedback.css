@@ -1,0 +1,50 @@
+.feedback-message
+{
+    border-style:       solid;
+    border-width:       1px;
+    margin:             8px;
+    padding:            15px 15px 15px 60px;
+    width:              700px;
+    background:         url('/images/common/feedback/dialog-information.png') 20px 10px no-repeat;
+}
+
+div.error-feedback
+{
+    background-color:   #FFCDCF;
+    border-color:       #AC010D;
+    color:              #AC010D;
+    background-image:   url('/images/common/feedback/dialog-error.png');
+}
+
+div.warn-feedback
+{
+    background-color:   #FFE6D3;
+    border-color:       #B64500;
+    color:              #B64500;
+    background-image:   url('/images/common/feedback/dialog-warning.png');
+}
+
+div.alert-feedback
+{
+    background-color:   #FFBD7B;
+    border-color:       #B64500;
+    color:              #B64500;
+    background-image:   url('/images/common/feedback/dialog-important.png');
+}
+
+div.inform-feedback
+{
+    background-color:   #C2DBED;
+    border-color:       #091A44;
+    color:              #091A44;
+    background-image:   url('/images/common/feedback/dialog-information.png');
+}
+
+div.success-feedback
+{
+    background-color:   #CAFFBC;
+    border-color:       #023600;
+    color:              #023600;
+    background-image:   url('/images/common/feedback/dialog-success.png');
+}
+

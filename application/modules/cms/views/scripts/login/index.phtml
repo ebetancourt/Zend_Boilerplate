@@ -1,0 +1,13 @@
+<h2>Zend_Login example</h2>  
+  
+<p>  
+Hello! This is an example of authenticating users with the Zend Framework...  
+</p>  
+  
+<p>Please login to proceed.</p>  
+  
+<?php if($this->errorMessage != ""): ?>  
+<p class="error"><?php echo $this->errorMessage; ?></p>  
+<?php endif; ?>  
+  
+<?php echo $this->loginForm; ?>
